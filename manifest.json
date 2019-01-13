@@ -1,0 +1,15 @@
+{
+    "name": "Relink",
+    "description": "Jump over paywalls using Facebook",
+    "version": "0.0.1",
+    "permissions": ["contextMenus", "tabs"],
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "64": "fb_64.png",
+        "256": "fb_256.png"
+    },
+    "manifest_version": 2
+}
