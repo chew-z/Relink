@@ -1,3 +1,10 @@
+/**
+ * If we don't have a chrome object, check for browser and rename.
+ */
+if (typeof chrome === 'undefined' && typeof browser !== 'undefined') {
+    chrome = browser;
+}
+
 // The onClicked callback function.
 function onClickHandler(info, tab) {
     const link = info.linkUrl;
