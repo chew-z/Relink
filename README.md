@@ -1,6 +1,6 @@
 # Relink
 
-Jump over paywalls using Facebook re-linking.
+Jump over paywalls with this simplistic Chrome extension using Facebook re-linking.
 
 It works on many newspaper sites like like wsj.com or ft.com. Facebook is generating signed url that gets through you paywalls. Simple. Few lines of code.
 
