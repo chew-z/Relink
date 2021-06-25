@@ -9,9 +9,9 @@ if (typeof chrome === 'undefined' && typeof browser !== 'undefined') {
 function onClickHandler(info, tab) {
     const link = info.linkUrl;
     console.log(link);
-    const url = `http://facebook.com/l.php?u=${encodeURIComponent(link)}`;
-    // FB onion address (via Tor) with SkyZIP extension
-    // const url = `https://www.facebookcorewwwi.onion/l.php?u=${encodeURIComponent(link)}`;
+    // const url = `http://facebook.com/l.php?u=${encodeURIComponent(link)}`;
+    // FB onion address (via Tor) with Proxy extension
+    const url = `https://www.facebookcorewwwi.onion/l.php?u=${encodeURIComponent(link)}`;
     console.log(url);
     chrome.tabs.create({ url: url });
 }
